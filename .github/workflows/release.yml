@@ -9,7 +9,6 @@ on:
 jobs:
   release:
     name: Release
-    if: github.repository == '@odroltd/pinia-plugin-persistedstate'
     runs-on: ubuntu-latest
 
     steps:
