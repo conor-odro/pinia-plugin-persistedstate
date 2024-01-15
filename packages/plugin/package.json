@@ -1,7 +1,7 @@
 {
   "name": "@odroltd/pinia-plugin-persistedstate",
   "type": "module",
-  "version": "3.2.1",
+  "version": "3.3.0",
   "description": "Configurable persistence and rehydration of Pinia stores.",
   "author": "prazdevs",
   "license": "MIT",
