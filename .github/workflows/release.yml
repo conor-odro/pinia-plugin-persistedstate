@@ -67,5 +67,5 @@ jobs:
       - name: Publish on NPM
         uses: JS-DevTools/npm-publish@v1
         with:
-          token: ${{ secrets.GITHUB_NPM_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           package: ./packages/${{ steps.pkg.outputs.pkg }}/package.json
