@@ -69,3 +69,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           package: ./packages/${{ steps.pkg.outputs.pkg }}/package.json
+          registry: "https://npm.pkg.github.com"
