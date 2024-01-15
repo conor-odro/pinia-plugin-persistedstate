@@ -1,5 +1,5 @@
 {
-  "name": "pinia-plugin-persistedstate",
+  "name": "@odroltd/pinia-plugin-persistedstate",
   "type": "module",
   "version": "3.2.1",
   "description": "Configurable persistence and rehydration of Pinia stores.",

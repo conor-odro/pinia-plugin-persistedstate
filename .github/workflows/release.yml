@@ -9,7 +9,7 @@ on:
 jobs:
   release:
     name: Release
-    if: github.repository == 'prazdevs/pinia-plugin-persistedstate'
+    if: github.repository == '@odroltd/pinia-plugin-persistedstate'
     runs-on: ubuntu-latest
 
     steps:
@@ -68,6 +68,5 @@ jobs:
       - name: Publish on NPM
         uses: JS-DevTools/npm-publish@v1
         with:
-          access: public
-          token: ${{ secrets.NPM_TOKEN }}
+          token: ${{ secrets.GITHUB_NPM_TOKEN }}
           package: ./packages/${{ steps.pkg.outputs.pkg }}/package.json
